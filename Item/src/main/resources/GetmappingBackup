@@ -1,0 +1,20 @@
+//    @GetMapping("/items")
+//    public ResponseEntity<List<Item>> GetAllItem()
+//    {
+//                List<Item> items=   itemService.allItem();
+//                return ResponseEntity.ok().body(items);
+//    }
+//
+//    @GetMapping("/items/itemno")
+//    public ResponseEntity<Item> GetItemById(@RequestParam long itemno)
+//    {
+//        Item items= itemService.ItemById(itemno);
+//        return ResponseEntity.ok().body(items);
+//    }
+//
+//    @GetMapping("/items/ordernumber")
+//    public ResponseEntity<List<Item>> GetItemByOrder(@RequestParam int ordernumber)
+//    {
+//        List<Item> items=itemService.GetByOrderId(ordernumber);
+//        return ResponseEntity.ok().body(items);
+//    }
